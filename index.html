@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<div id="container">
+    <h1>Çript0graFado$</h1>
+    <label for="naocripto" id="txtDescript">Texto descriptografado: <br> <span id="txtmenor">(apenas letras minusculas)</span> 
+    </label> <br>
+    <textarea name="naocripto" id="naocripto" placeholder="Digite o texto aqui"></textarea>
+    
+    <div class="botoes">
+        <button onclick="criptografar()">Criptografar</button>
+        <button onclick="descriptografar()">Descriptografar</button>
+        <button onclick="limpar()">Limpar</button>
+    </div>
+
+    <label for="cripto" id="txtCript">Texto Criptografado:</label>
+    <br>
+    <textarea name="cripto" id="cripto" readonly></textarea>
+    <div class="botoes">
+        <button onclick="copyText()">Copiar Texto</button>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
